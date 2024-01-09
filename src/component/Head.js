@@ -9,7 +9,7 @@ const Head = () => {
       </div>
       <input
         placeholder="search features, tutorial etc"
-        className="p-2 border border-gray-200 rounded-lg w-1/4"
+        className="p-2 border border-gray-200 rounded-lg w-2/5"
       />
       <div>
         <span className="px-2">📢</span>

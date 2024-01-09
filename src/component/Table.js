@@ -11,7 +11,7 @@ const Table = () => {
             <div className="">Order Amount</div>
             <div className="">Transaction Fees</div>
           </li>
-          <li className="flex justify-between  px-2 ">
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -25,7 +25,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -39,7 +40,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -53,7 +55,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -67,7 +70,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -81,7 +85,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -95,7 +100,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -109,7 +115,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -123,7 +130,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -137,7 +145,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -151,7 +160,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -165,7 +175,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -179,7 +190,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -193,7 +205,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -207,7 +220,8 @@ const Table = () => {
               Rs 22
             </div>
           </li>
-          <li className="flex justify-between  px-2">
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
             <div className="text-blue-500" data-label="Job Id">
               #281209
             </div>
@@ -221,6 +235,22 @@ const Table = () => {
               Rs 22
             </div>
           </li>
+          <div className="border border-gray-200 mx-2"></div>
+          <li className="flex justify-between  px-2 py-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <div className="border border-gray-200 mx-2"></div>
         </ul>
       </div>
     </div>
