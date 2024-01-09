@@ -1,70 +1,224 @@
 import React from "react";
-import "./table.css";
+
 const Table = () => {
   return (
     <div>
-      <div class="w-full m-2 p-2">
-        <ul class="responsive-table">
-          <li class="flex justify-between my-2 border border-black">
-            <div class="col col-1">Job Id</div>
-            <div class="col col-2">Customer Name</div>
-            <div class="col col-3">Amount Due</div>
-            <div class="col col-4">Payment Status</div>
+      <div className="w-full  p-4 ">
+        <ul className="">
+          <li className="flex justify-between items-center py-2 px-2 bg-gray-200 rounded-lg">
+            <div className="">Order Id</div>
+            <div className="">Order Date🔽</div>
+            <div className="">Order Amount</div>
+            <div className="">Transaction Fees</div>
           </li>
-          <li class="table-row">
-            <div class="col col-1" data-label="Job Id">
-              42235
+          <li className="flex justify-between  px-2 ">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
             </div>
-            <div class="col col-2" data-label="Customer Name">
-              John Doe
+            <div className="" data-label="Order Date">
+              7 July,2023
             </div>
-            <div class="col col-3" data-label="Amount">
-              $350
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
             </div>
-            <div class="col col-4" data-label="Payment Status">
-              Pending
-            </div>
-          </li>
-          <li class="table-row">
-            <div class="col col-1" data-label="Job Id">
-              42442
-            </div>
-            <div class="col col-2" data-label="Customer Name">
-              Jennifer Smith
-            </div>
-            <div class="col col-3" data-label="Amount">
-              $220
-            </div>
-            <div class="col col-4" data-label="Payment Status">
-              Pending
+            <div className="" data-label="Transaction Fees">
+              Rs 22
             </div>
           </li>
-          <li class="table-row">
-            <div class="col col-1" data-label="Job Id">
-              42257
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
             </div>
-            <div class="col col-2" data-label="Customer Name">
-              John Smith
+            <div className="" data-label="Order Date">
+              7 July,2023
             </div>
-            <div class="col col-3" data-label="Amount">
-              $341
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
             </div>
-            <div class="col col-4" data-label="Payment Status">
-              Pending
+            <div className="" data-label="Transaction Fees">
+              Rs 22
             </div>
           </li>
-          <li class="table-row">
-            <div class="col col-1" data-label="Job Id">
-              42311
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
             </div>
-            <div class="col col-2" data-label="Customer Name">
-              John Carpenter
+            <div className="" data-label="Order Date">
+              7 July,2023
             </div>
-            <div class="col col-3" data-label="Amount">
-              $115
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
             </div>
-            <div class="col col-4" data-label="Payment Status">
-              Pending
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
+            </div>
+          </li>
+          <li className="flex justify-between  px-2">
+            <div className="text-blue-500" data-label="Job Id">
+              #281209
+            </div>
+            <div className="" data-label="Order Date">
+              7 July,2023
+            </div>
+            <div className="" data-label="Order Amount">
+              Rs 1,278,23
+            </div>
+            <div className="" data-label="Transaction Fees">
+              Rs 22
             </div>
           </li>
         </ul>

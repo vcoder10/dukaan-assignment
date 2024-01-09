@@ -5,7 +5,7 @@ import Transaction from "./Transaction";
 
 const Body = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-gray-100">
       <Head />
       <Overview />
       <Transaction />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Head = () => {
   return (
-    <div className="flex w-full justify-between items-center p-2 ">
+    <div className="flex w-full justify-between items-center p-2 bg-white">
       <div>
         <span className="px-2">Payments</span>
         <span className="px-2">? How it work</span>
