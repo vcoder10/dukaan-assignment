@@ -1,11 +1,20 @@
 import React from "react";
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
+import Button from "@mui/material/Button";
 
 const Head = () => {
   return (
     <div className="flex w-full justify-between items-center p-2 bg-white">
       <div>
         <span className="px-2">Payments</span>
-        <span className="px-2">? How it work</span>
+        <span className="">
+          <Button
+            startIcon={<HelpOutlineIcon />}
+            style={{ color: "black", textTransform: "none" }}
+          >
+            How it work
+          </Button>
+        </span>
       </div>
       <input
         placeholder="search features, tutorial etc"

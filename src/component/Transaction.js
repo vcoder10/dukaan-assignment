@@ -1,5 +1,7 @@
 import React from "react";
 import Table from "./Table";
+import Button from "@mui/material/Button";
+import SystemUpdateAltIcon from "@mui/icons-material/SystemUpdateAlt";
 
 const Transaction = () => {
   return (
@@ -11,14 +13,14 @@ const Transaction = () => {
       <div className="bg-white shadow-sm rounded-lg">
         <div className="flex justify-between p-2">
           <input
-            placeholder="search by order"
+            placeholder="search by order Id"
             className=" border border-gray-200 rounded-lg w-1/4 px-2"
           />
           <div className="flex ">
             <h3 className="border border-gray-200 rounded-lg py-1 px-2 mx-2">
               Sort
             </h3>
-            <h3 className="border border-gray-200 rounded-lg py-1 px-2 ">D</h3>
+            <Button startIcon={<SystemUpdateAltIcon />}></Button>
           </div>
         </div>
 
